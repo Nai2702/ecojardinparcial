@@ -1,0 +1,401 @@
+.bg_banner{
+    height:15rem;
+    background-color: #D7EFCE;
+    background-image: none;
+    width: 100%;
+  }
+
+
+
+p{
+    font-size: 1.2rem;
+  }
+  
+.bg-gris{
+    background-color: #688e9b;
+    border-bottom:2px solid #92c082;
+}
+
+.bg-verde{
+    background-color:#D7EFCE;
+    border:3px solid #ffffff;
+    border-radius: 20px;
+}
+
+
+a{
+    font-size: 3rem;
+}
+
+main{
+    background-color:#fd9d9aa5;
+}
+
+.producto{
+    border:2px solid  rgb(8, 137, 53);
+    border-radius: 20px;
+    margin:0.5rem;
+    background-color: aliceblue;
+}
+
+.img_hover{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.img_hover:hover{
+    transform: scale(1.1);
+    border:2px solid rgb(8, 137, 53);
+
+                
+}
+
+span{
+    font-size: 1.8rem;
+    color: darkgreen;
+    font-weight: 600;
+}
+
+.btn-pink{
+    color: white;
+    background-color: rgb(237, 15, 160);
+    border: 0.15rem solid rgb(179, 15, 121);
+    width: fit-content;
+    margin: auto;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+    outline: 0.20rem solid ;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+
+
+.btn-pink:hover{
+    color:rgb(237, 15, 160);
+    font-weight: bold;
+    outline-offset: 0.15rem;
+    border-color: #fd9d9aa5;
+}
+
+.bg_verde{
+    background-color: #D7EFCE ;
+    margin: 0% auto;
+
+}
+
+h1 , .h1{
+    text-align: center;
+    font-family: "WindSong", cursive;
+    font-weight:600;
+    font-style:normal;
+    font-size: 1rem;
+    color: rgb(4, 66, 26);
+    text-shadow: 2px 2px 5px rgb(220, 120, 133);
+    margin-bottom: 2rem;     
+}
+
+h2,h3{
+    font-size: 2rem;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(8, 137, 53);
+}
+
+h4{
+    font-size: 1.6rem;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(8, 137, 53);
+}
+
+.datos_personales{
+    margin-top: 10rem;
+}
+
+.foot-li{
+    text-align: center;
+    list-style-type: none;
+}
+
+footer h2{font-size: 0%;}
+
+
+.bg_footer{
+    color:white;
+    height: 42rem;
+    background: url(../img/bg/banner_footer.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+
+.navbar-nav{
+            text-align: right;
+}
+
+.talleres_grid{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+
+
+}
+
+.facebook{
+    background:url(../img/iconos/facebook.png) no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    font-size: 0%;
+}
+
+.instagram{
+    background:url(../img/iconos/instagram.png) no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    font-size: 0%;
+}
+
+.behance{
+    background:url(../img/iconos/behance.png) no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    font-size: 0%;
+}
+
+
+.facebook:hover{
+    border:2px solid rgb(220, 120, 133);
+    border-radius: 5px;
+}
+
+.instagram:hover{
+    border:2px solid rgb(220, 120, 133);
+    border-radius: 5px;
+}
+
+.behance:hover{
+    border:2px solid rgb(220, 120, 133);
+    border-radius: 5px; 
+}
+
+/*estilos inicio*/
+
+.bg-card{
+    background-color:#de7b8388;
+    border:none;
+}
+
+.text-obj{
+    font-size:1.5rem;
+    color: darkgreen;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+   
+    font-weight: bold;
+    border-bottom: 1px solid #fd9d9aa5 ;
+}
+
+/*estilos contacto*/
+
+.btn-form{
+    background-color: #fd9d9a;
+    border: 2px solid white;
+    border-radius: 5rem;
+    width: 30%;
+}
+
+.btn-form:hover{
+    background-color:#ed7d79f0;
+    border:2px solid #f3f3f3;
+}
+
+.estilo_form{
+    margin-top: 3rem;
+    background: url(../img/bg/bg_footer.jpg) no-repeat center;
+    background-size: cover;
+ 
+}
+
+label{
+    font-weight: bold;
+    color: darkgreen;
+    font-size: 1.4rem;
+}
+
+/*estilos detalle*/
+
+.det-li{
+    list-style: none;
+}
+
+.list{
+    font-size: 1.2rem;
+
+}
+
+/* estilos para talleres*/
+
+
+.accordion-button:not(.collapsed){
+
+    background-color: #d7efceaa;
+}
+
+/*estilos carousel*/
+
+.banner{
+    aspect-ratio: 2/1;
+    background: linear-gradient(pink, hotpink);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.btn-banner{
+    color: white;
+    background-color: rgb(237, 15, 160);
+    border: 0.15rem solid rgb(179, 15, 121);
+    width: fit-content;
+    margin: auto;
+    padding: 0.25rem 1rem;
+    border-radius: 0.5rem;
+    outline: 0.20rem solid  ;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-banner:hover{
+    background-color: #f3f3f3;
+    color:rgb(237, 15, 160);
+    font-weight: bold;
+    outline-offset: 0.15rem;
+    border-color: rgb(255, 255, 255);
+
+}
+
+
+.slide-1{
+background-image:url('../img/bg/primer_banner.jpg');
+background-size: cover;
+width: 100%;
+}
+
+.slide-2{
+background-image:url('../img/bg/segundo_banner.jpg');
+background-size: cover;
+width: 100%;
+}
+
+.slide-3{
+background-image:url('../img/bg/tercer_banner.jpg');
+background-size: cover;
+width: 100%;
+}
+
+.carousel-banner>div {
+color: whitesmoke;
+font-size: 1.5em;
+font-weight: 300;
+text-transform: uppercase;
+
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.648);
+display: none;
+}
+
+.carousel-banner>img {
+max-width: 50%;
+filter: drop-shadow(2px 2px 5px black);
+}
+
+.talleres_grid{
+    grid-template-columns: 1fr;
+    gap: 2rem;
+
+    }
+
+
+ /* Small devices (landscape phones, px and up)*/
+
+@media (min-width: 420px) { 
+
+
+
+    .navbar-brand img{
+        height: 40px;
+    }
+
+    h1 , .h1{
+        font-size: 3rem;
+    }
+    
+}
+
+
+
+
+  /* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+
+    .talleres_grid{
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+    
+        }
+
+    
+}
+
+  
+        
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  
+
+}
+
+   
+    
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    h1 , .h1{
+        font-size: 8rem;
+    }
+
+    .talleres_grid{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+    
+        }
+    
+}
+
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+   
+   
+  
+ }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { }
